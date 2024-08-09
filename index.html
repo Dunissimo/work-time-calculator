@@ -1,31 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calc work time</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calc work time</title>
 </head>
 
 <body>
-
+  <div id="app">
     <table id="work" class="container">
-        <thead>
-            <tr>
-                <th>Число</th>
-                <th>Время (hh:mm)</th>
-                <th>Деньги</th>
-                <th>Квота (hh:mm)</th>
-                <th>Средняя за час</th>
-            </tr>
-        </thead>
-        <tbody id="work-body"></tbody>
-        <tfoot id="work-footer"></tfoot>
+      <thead>
+        <tr>
+          <th>Число</th>
+          <th>Время (hh:mm)</th>
+          <th>Деньги</th>
+          <th>Квота (hh:mm)</th>
+          <th>Средняя за час</th>
+        </tr>
+      </thead>
+      <tbody id="work-body"></tbody>
+      <tfoot id="work-footer"></tfoot>
     </table>
-
-    <script type="module" src="./index.js"></script>
+  </div>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
